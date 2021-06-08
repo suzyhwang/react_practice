@@ -16,6 +16,15 @@ body{
   font-size: 20px;
   box-sizing: border-box;
 }
+.top__button{
+  display: flex;
+  margin-left: 1em;
+}
+.modal{
+  margin-top: 20px;
+  padding: 20px;
+  background : #eee
+}
 .list {
   margin-top: 10px;
   text-align: left;
