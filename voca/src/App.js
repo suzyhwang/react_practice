@@ -4,9 +4,10 @@ import Hello from "./component/Hello";
 function App() {
   return (
     <div className="App">
-      <Hello />
-      <Hello />
-      <Hello />
+      <h1>props : properties</h1>
+      <Hello age={10} />
+      <Hello age={20} />
+      <Hello age={30} />
     </div>
   );
 }
